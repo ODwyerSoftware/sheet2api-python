@@ -2,6 +2,8 @@
 
 Google/Excel Sheets API Python Client. For use with https://sheet2api.com/
 
+https://sheet2api.com/excel-sheet-python/
+
 [![Build Status](https://travis-ci.org/ODwyerSoftware/sheet2api-python.svg?branch=master)](https://travis-ci.org/ODwyerSoftware/sheet2api-python) [![PyPI version](https://badge.fury.io/py/sheet2api.svg)](https://pypi.org/project/sheet2api/)
 
 ## Installation
@@ -78,7 +80,7 @@ This will update the entire row for the matches, if you fail to specificy all co
 
 ```python
 client.update_rows(
-    sheet='Sheet1,
+    sheet='Sheet1',
     query={'name': 'Philip'},
     row={
         'name': 'Phil',
